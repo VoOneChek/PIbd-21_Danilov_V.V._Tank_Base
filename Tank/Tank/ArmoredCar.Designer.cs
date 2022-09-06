@@ -1,6 +1,6 @@
 ﻿namespace Tank
 {
-    partial class Form1
+    partial class ArmoredCar
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // ArmoredCar
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Name = "ArmoredCar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Armored Car";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
